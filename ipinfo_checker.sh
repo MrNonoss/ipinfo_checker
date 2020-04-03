@@ -8,7 +8,7 @@ clear
 read -p "Quel fichier voulez-vous traiter? " file
 read -p "Comment appelez-vous votre fichier de sortie: " done
 echo -e "\e[33m================================================\e[0m"
-token=937c661f3e6ff6
+token=XXXXXXXXXXXX
 lines=$(cat $file | wc -l)
 echo -e "\e[33m================================================\e[0m"
 echo "Vous avez la possibilité d'effectuer deux types de recherches:"
