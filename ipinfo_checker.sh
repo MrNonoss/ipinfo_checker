@@ -34,7 +34,7 @@ token=
 clear
 echo "Souvenez-vous que votre fichier à traiter ne doit contenir que des adresses IP"
 echo -e "\e[33m================================================\e[0m"
-lines=$(cat $file | wc -l)
+lines=$(cat $1 | wc -l)
 count=0
 #AS=$(AS3215 || AS15557 || AS12626 || AS12844 || AS5410 || AS51207 || AS25117 || AS201770)
 echo -e "\e[33m================================================\e[0m"
