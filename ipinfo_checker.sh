@@ -18,7 +18,7 @@ Help() {
   echo
   echo "Please note two things:"
   echo -e "-->\e[41mentryfile must contains only IPs\e[0m."
-  echo -e "-->You should first sort -u you entryfile to save your ipinfo API"
+  echo -e "-->You should first sort -u your entryfile to save your ipinfo API"
   echo
 }
 while getopts ":h" option; do
